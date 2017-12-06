@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="taufan.ayotebak.MainActivity"
+    android:background="#74a633">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ayotebak!"
+        android:textColor="#fdcd01"
+        android:textStyle="italic"
+        android:textAllCaps="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:textSize="25dp"
+        android:fontFamily="sans-serif-condensed"
+        android:id="@+id/txtTitle"
+        />
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/hai"
+        android:id="@+id/imgHai"
+        android:layout_below="@id/txtTitle"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hai Kak,"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/imgHai"
+        android:layout_marginTop="10dp"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:id="@+id/txtHai"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtHai"
+        android:text="Siap untuk bermain?"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:id="@+id/txtSiap"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtSiap"
+        android:text="Kalo udah siap,"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:id="@+id/txtKalo"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtKalo"
+        android:text="Klik tombol di bawah ini ya..."
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:id="@+id/txtKlik"/>
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="Ayo Lanjut!"
+        android:textStyle="italic"
+        android:background="#ffffff"
+        android:layout_below="@+id/txtKlik"
+        android:layout_marginTop="60dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/btnLanjut"
+        android:textColor="#8c232223"
+        />
+
+
+
+</RelativeLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="taufan.ayotebak.hasil"
+    android:background="#74a633">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/linearEnd"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginVertical="70dp">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/hai"
+            android:layout_alignParentLeft="true"
+            android:id="@+id/imgBerhasil"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Wow kamu berhasil!"
+            android:textColor="#fdcd01"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:layout_marginVertical="80dp"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearEnd"
+        android:id="@+id/txtHasil"
+        android:layout_marginTop="10dp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="15dp"
+        />
+
+
+</RelativeLayout>

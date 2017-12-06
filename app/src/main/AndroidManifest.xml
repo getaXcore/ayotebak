@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="taufan.ayotebak">
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@drawable/hai"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".soal1"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".soal2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".soal3"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".soal4"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".soal5"
+            android:screenOrientation="portrait" />
+        <activity android:name=".hasil" android:screenOrientation="portrait"></activity>
+        <service android:name=".serv" android:enabled="true"></service>
+        <service android:name=".serv2" android:enabled="true"></service>
+    </application>
+
+</manifest>

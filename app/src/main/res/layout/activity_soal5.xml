@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="taufan.ayotebak.soal5"
+    android:background="#26ac6a">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linear1"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/stevejobs"
+            android:id="@+id/imgStevejobs"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Siapakah pendiri Apple?"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:layout_marginTop="5dp"/>
+
+    </LinearLayout>
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linear1"
+        android:id="@+id/rbGroup"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp">
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Steve Jobs"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:id="@+id/rbStevejobs"/>
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Barack Obama"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:id="@+id/rbObama"/>
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bill Gates"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:id="@+id/rbBillgates"/>
+
+    </RadioGroup>
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="jawab"
+        android:textStyle="italic"
+        android:background="#ffffff"
+        android:layout_below="@+id/rbGroup"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/btnLanjut5"
+        android:textColor="#8c232223"
+        />
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:src="@drawable/animasi"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/imgFooter"/>
+
+</RelativeLayout>
